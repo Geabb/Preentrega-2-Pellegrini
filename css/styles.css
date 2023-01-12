@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;1,500&family=Fugaz+One&family=News+Cycle&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(30, 41, 104);
+}
+
+
+/*Header*/
+
+.head{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10%;
+    font-family:'Fugaz One', cursive;
+    text-transform: uppercase;
+    
+}
+
+/*Logo*/
+
+.head .logo{
+    cursor: pointer;
+}
+
+.head .logo img{
+    height: 250px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.head .logo img:hover{
+    transform: scale(1.2);
+}
+
+/*Logo*/
+
+
+
+.head .nav-links li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.head .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+.head .nav-links li:hover{
+    transform: scale(1.1);
+    color: goldenrod;
+    cursor: pointer;
+}
+.head .nav-links li a:hover{
+    transform: scale(1.1);
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.head .nav-links{
+    font-size: 700;
+    color: rgb(30, 41, 104);
+}
+
+
+/*Header*/
+
+
+/*Resultado*/
+
+.result h3{
+    font-size: 12px;
+    text-align: center;
+    color: goldenrod;
+    font-family:'Fugaz One', cursive;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.result{
+    background-image: url(../images/cancha-resultados-opacity.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(18, 11, 63);
+    margin: 55px auto 55px auto;
+    text-transform: uppercase;
+}
+
+.titulo-fecha{
+    color: white;
+    text-align: center;
+    font-family:'Fugaz One', cursive;
+}
+
+.contenedor-titulo{
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.barrita{
+    border-top: 2px solid white;
+    width: 50px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.club_logo{
+    height: 50px;
+    width: 50px;
+}
+
+.contenedor-resultado{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+    width: 50%;
+}
+.numero{
+    color: goldenrod;
+    font-family: 'Chakra Petch', sans-serif
+;
+
+}
+
+.equipos{
+    font-family: 'Chakra Petch', sans-serif
+;
+}
+
+/*Resultado*/
+
+
+/*Noticias*/
+
+.titulo{
+    font-family:'Fugaz One', cursive;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(30, 41, 104);;
+}
+
+
+.contenedor-tarjetas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.tarjeta-news{
+    height: 450px;
+    width: 20%;
+    margin: auto;
+    margin-top: 55px;
+    overflow: hidden;
+    background-color: white;   
+}
+
+.tarjeta-news:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(81, 138, 211);
+}
+
+
+.contenedor-image{
+    margin: 5%;
+}
+
+.image-news{
+    height: 50%;
+    width: 100%;
+}
+
+.fecha{
+    font-family:'News Cycle', sans-serif
+;
+    font-size: 15px;
+    color: goldenrod;
+}
+
+.texto-news{
+    font-family:'News Cycle', sans-serif
+;
+    font-size: 25px;
+    color: black;
+
+}
+
+/*Noticias*/
+
+
+/* Proxímas fechas*/
+
+.contenedor-imagen-fondo{
+    background-image: url(../images/cancha-resultados.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-color-fondo{
+    background-color: rgba(55, 57, 146, 0.877);
+    height: 400px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.tarjetas-fechas{
+    height: 240px;
+    width: 300px;
+    color: white;
+    display: inline;
+    margin: auto;
+}
+
+.rectanguo-fechas{
+    height: 25px;
+    width: 100px;
+    background-color: goldenrod;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.tipo-fechas{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:'Chakra Petch', sans-serif;
+}
+
+.dia-fecha h1{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 40px;
+}
+
+.ubicacion{
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Proxímas fechas */
+
+/* Clubes */ /* Clubes */ /* Clubes */ 
+
+/*Titulo*/
+
+.titulo-clubes{
+    color: white;
+    text-align: center;
+    margin: 50px auto 30px auto;
+    font-family:'Fugaz One', cursive;
+    font-size: 35px;
+    
+}
+/*Titulo*/
+
+/* Grid equipos */
+
+
+.grid-container{
+
+    font-family: 'Chakra Petch', sans-serif;
+    height: 700px;
+
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 30%));
+    grid-template-rows: repeat(250px, autofill);
+
+    gap:25px;
+    padding: 20px;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+/* Clubes Grid */
+
+.grid-item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.grid-item{
+    display: flex;
+    color: white;
+    justify-content: end;
+    border-radius: 5px;
+    border: 1px goldenrod solid;
+
+}
+
+/* Clubes Grid */
+
+/* Grid equipos */
+
+
+/* Contacto */
+.flex-container-contacto{
+    height: 240px;
+    width: 100%px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 100px auto 100px;
+    justify-content: space-between;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.titulo-contacto{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.titulo-contacto p{
+    color: goldenrod;
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-family:'Fugaz One', cursive;
+}
+
+
+/* Formulario */
+.formulario{
+    background-color: #0484fb;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-items: center;
+}
+form{
+    text-align: center;
+}
+
+label{
+    display: block; 
+    float: center;  
+}
+button{
+    color: white;
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: goldenrod; 
+    border-color: rgb(78, 62, 21); 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+}
+.aviso{
+    font-size: 15px;  
+    color: black;
+    margin-bottom: 10px;
+}
+
+.formulario h1{
+    font-size: 40px;  
+    text-align: letf; 
+    padding: 20px 20px 20px 20px; 
+    color: white;
+    text-transform: uppercase;
+}
+.formulario h3{
+    font-size: 20px;
+    text-align: center; 
+    padding: 20px 20px 20px 20px; 
+    color: white;
+    text-transform: uppercase;
+}
+input{
+    background-color: #fbfbfb; 
+    width: 80%; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgba(55, 57, 146, 0.877); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 80%; 
+    height: 200px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgba(55, 57, 146, 0.877); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+/* Formulario */
+
+@media screen and (max-width: 300px) {
+    .flex-container-contacto {
+        flex-direction:column;
+        padding: 0;
+    }
+
+/* Contacto */
+
+/*Footer*/
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3{
+    text-transform: uppercase;
+    color: rgba(218, 165, 32, 0.644);
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Footer*/
+
